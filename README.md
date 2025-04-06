@@ -55,7 +55,7 @@ The dataset provides health and lifestyle information for individuals. Key attri
 - Grouped by both `Age` and `Gender`: Mean stress levels
 - Used `.groupby().agg()` for multiple metric aggregation
 
-### ✦⃣ Pivot Tables
+### Pivot Tables
 Created detailed summaries of the data:
 
 - Pivot Table 1:
@@ -72,7 +72,7 @@ Created detailed summaries of the data:
   ```
 - All pivot tables were cross-validated with equivalent `groupby()` logic
 
-### ✦⃣ Merging Datasets
+### Merging Datasets
 - Split the dataset into two (e.g., sleep and health aspects)
 - Merged back using `pd.merge()` on `Person ID`
 
